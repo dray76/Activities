@@ -1,0 +1,114 @@
+<head>
+    <meta charset ="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Jake's Coffee Shop</title>
+  
+  </head>
+  <body>
+    <div id="container">
+      <div id="logo">
+        <h1> Jake's Coffee Shop </h1>
+      </div>
+      <div id="leftcolumn">
+        <a class="navBar" href="#home" onclick="show('Home')">Home</a>
+        <a class="navBar" href="#menu" onclick="show('Menu')">Menu</a>
+        <a class="navBar" href="#music" onclick="show('Music')">Music</a>
+        <a class="navBar" href="#jobs" onclick="show('Jobs')">Jobs</a>
+      </div>
+      <div id="Home">
+        <p>Come in and experience...
+        </p>
+        <style>
+        img{
+       float: right;
+     }
+   </style>
+        <img class="floatright" src="file:///C:/Users/Admin/Desktop/Image/coffee.jpg" alt="coffee"  width="200" height="200">
+        <ul>
+          <li>Specialty Coffee and Tea</li>
+          <li>Freshly made sandwiches</li>
+          <li>Bagels, Muffins, and Organic Snacks</li>
+          <li>Music and Poetry Readings</li>
+          <li>Open mic nights</li>
+          <li> ... </li>
+        </ul>
+        
+          <p>23 Pine Road <br> Nottingham, NG1 5YU <br> 0115 9324567</p>
+        </div>
+        <div id="Menu" hidden="true">
+          <p>Menu
+          </p>
+          <style>
+          img{
+         float: right;
+       }
+     </style>
+          <img class="floatright" src="file:///C:/Users/Admin/Desktop/Image/coffee.jpg" alt="coffee"  width="200" height="200">
+          <ul>
+            <li>Specialty Coffee </li>
+            <li>Specialty Tea</li>
+            <li>Freshly made sandwich</li>
+            <li>Bagels</li>
+            <li>Muffins</li>
+            <li>Organic Snack</li>
+            
+          </ul>
+          
+            <p>23 Pine Road <br> Nottingham, NG1 5YU <br> 0115 9324567</p>
+          </div>
+          <div id="Music" hidden="true">
+            <p>All about Music
+            </p>
+            <style>
+            img{
+           float: right;
+         }
+       </style>
+            <img class="floatright" src="file:///C:/Users/Admin/Desktop/Image/coffee.jpg" alt="coffee"  width="200" height="200">
+            <ul>
+              <li>Music and Poetry Readings</li>
+          <li>Open mic nights</li>
+              
+            </ul>
+            
+              <p>23 Pine Road <br> Nottingham, NG1 5YU <br> 0115 9324567</p>
+            </div>
+            <div id="Jobs" hidden="true">
+              <p>List of Jobs
+              </p>
+              <style>
+              img{
+             float: right;
+           }
+         </style>
+              <img class="floatright" src="file:///C:/Users/Admin/Desktop/Image/coffee.jpg" alt="coffee"  width="200" height="200">
+              <ul>
+                <li>Barrista</li>
+            <li>Manager</li>
+                
+              </ul>
+              
+                <p>23 Pine Road <br> Nottingham, NG1 5YU <br> 0115 9324567</p>
+              </div>
+        <div id="footer">
+          Copyright &copy; 2011 Jake's Coffee House<br>
+          <a href="jake@jcoffee.com">jake@jcoffee.com</a>
+        </div>
+      </div>
+     
+    </body>
+    <script>
+
+      var currentDiv = document.getElementById("Home");
+      function show(divID) {
+  
+          var div = document.getElementById(divID);
+  
+          currentDiv.style.display = "none";
+          div.style.display = "block";
+  
+          currentDiv = div;
+      }
+  
+  </script>
+  

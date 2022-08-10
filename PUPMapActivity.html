@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUP Map Activity</title>
+    <link rel="stylesheet" href="MapStyle.css">
+</head>
+<body>
+    <div class="PUPMap">
+        <h1 style="text-align: center">PUP Main</h1>
+        <img src="https://pupchem.weebly.com/uploads/6/8/8/4/6884332/9569207.gif?567" alt="PUP Kiosk" usemap="#pupmap" />
+      </div>
+      <div class="Mapped Area">
+        <h2>Mapped Areas</h2>
+        <ol>
+            <li>Catwalk </li>
+            <li>Centennial Monument </li>
+            <li>Flag Pole</li>
+            <li>Interfaith Chapel</li>
+            <li>Main Building – Dome</li>
+            <li>Main Gate</li>
+            <li>Open Court)</li>
+            <li>P.E. Building</li>
+            <li>PUP Obelisk (and the Mabini Monument)</li>
+            <li>PUP Pylon</li>
+        </ol>
+    </div>  
+      <map name="pupmap">
+
+        <div class="map" id="cat" onmouseover="mouseOver(this.id)">
+          <area shape="rect" coords="357,175,500,196" href="#" alt="" />
+        </div>
+
+        <div class="map" id="cent" onmouseover="mouseOver(this.id)">
+          <area  shape="circle" coords="281,185,9" href="#" />>
+        </div>
+
+        <div class="map" id="flag" onmouseover="mouseOver(this.id)">
+          <area   shape="circle" coords="298,249,9" href="#" />
+        </div>
+
+        <div class="map" id="chapel" onmouseover="mouseOver(this.id)">
+          <area shape="circle" coords="278,336, 42" href="#" alt="" />
+        </div>
+
+        <div class="map" id="dome" onmouseover="mouseOver(this.id)">
+          <area shape="circle" coords="208,291, 25" href="#" alt="" />
+        </div>
+
+        <div class="map" id="gate" onmouseover="mouseOver(this.id)">
+          <area shape="circle" coords="515,188,9" href="#" />
+        </div>
+
+        <div class="map" id="court" onmouseover="mouseOver(this.id)">
+          <area   shape="rect" coords="345,116,378,147" href="#" />
+        </div>
+
+        <div class="map" id="pe" onmouseover="mouseOver(this.id)">
+          <area  shape="rect" coords="261,38,284,120" href="#" />
+        </div>
+
+        <div class="map" id="obelisk" onmouseover="mouseOver(this.id)">
+          <area shape="circle" coords="322,188, 15" href="#" alt="" />
+        </div>
+
+        <div class="map" id="pylon" onmouseover="mouseOver(this.id)">
+          <area shape="circle" coords="514,171,9" href="#" />
+        </div>
+
+
+      </map>
+
+      <div class="info" id="Catwalk">
+        <img id="img" style="width: 100%; height: 50%; border-radius: 7px" src="http://3.bp.blogspot.com/-F7OdlqFING4/TcaQyNAaH0I/AAAAAAAAARA/skAYzgTPQ-M/s1600/27237_115868998426617_100000105525891_286356_7856881_n.jpg" alt="" />
+        <div id="title">Catwalk</div>
+        <div id="text">A narrow walkway covered by trees</div>
+      </div>
+
+      <div class="info" id="CentMonu">
+        <img id="img" style="width: 100%; height: 50%; border-radius: 7px" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/PUP_Mabini_Campus_-_lagoon_main_entrance_%28Santa_Mesa%2C_Manila%29%282018-01-29%29.jpg/1200px-PUP_Mabini_Campus_-_lagoon_main_entrance_%28Santa_Mesa%2C_Manila%29%282018-01-29%29.jpg" alt="" />
+        <div id="title">Centennial Monument</div>
+        <div id="text">Symbolizes the commemoration of 100th Foundatio</div>
+      </div>
+
+      <div class="info" id="flagpole">
+        <img id="img" style="width: 100%; height: 50%; border-radius: 7px" src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Front_view_of_the_north_wing_portion_of_the_main_building_of_the_Polytechnic_University_of_the_Philippines_%28PUP%29_Mabini_Campus_at_Anonas_Street%2C_Santa_Mesa%2C_Manila.jpg" alt="" />
+        <div id="title">FlagPole</div>
+        <div id="text">Used to raise the Flag of the Philippines</div>
+      </div>
+
+      <div class="info" id="interfaith">
+        <img id="img" style="width: 100%; height: 50%; border-radius: 7px" src="https://64.media.tumblr.com/3882925c524ebe8cae01f19730f07961/tumblr_mfhquspjOJ1rmrdfdo1_1280.jpg" alt="" />
+        <div id="title">Interfaith Chapel</div>
+        <div id="text">A private  place of prayer and worship</div>
+      </div>
+
+      <div class="info" id="MainDome">
+        <img id="img" style="width: 100%; height: 50%; border-radius: 7px" src="https://pbs.twimg.com/media/D25sZUeUcAEBnxl.jpg" alt="" />
+        <div id="title">Main Building - Dome</div>
+        <div id="text">Center of The Main Building</div>
+      </div>
+
+      <div class="info" id="maingate">
+        <img id="img" style="width: 100%; height: 50%; border-radius: 7px" src="https://upload.wikimedia.org/wikipedia/commons/a/a1/PUP_Mabini_Campus_-_gate_and_pylon_%28close-up%29_%28PUP%2C_Santa_Mesa%2C_Manila%29%282018-03-06%29.jpg" alt="" />
+        <div id="title">MainGate</div>
+        <div id="text">The Main entrance of students and guests</div>
+      </div>
+
+      <div class="info" id="opencourt">
+        <img id="img" style="width: 100%; height: 50%; border-radius: 7px" src="https://fastly.4sqi.net/img/general/600x600/125595881_oy5yL3KnNzjry74589vG8f9nhr_gqQKfbAFDnH3nJHQ.jpg" alt="" />
+        <div id="title">Open Court</div>
+        <div id="text">A court that anyone is allowed to use</div>
+      </div>
+
+      <div class="info" id="pebuilding">
+        <img id="img" style="width: 100%; height: 50%; border-radius: 7px" src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t31.18172-8/29355126_656960574695386_8724166305386549372_o.jpg?_nc_cat=107&ccb=1-5&_nc_sid=973b4a&_nc_ohc=jkGLLiOaCc4AX_9SthN&_nc_ht=scontent.fmnl25-1.fna&oh=55b252c5f8dc8f8618ec406ee729bc1a&oe=61D2328C" alt="" />
+        <div id="title">P.E. Building</div>
+        <div id="text">A building in which Physical Education classes are Conducted</div>
+      </div>
+
+      <div class="info" id="pupobelisk">
+        <img id="img" style="width: 100%; height: 50%; border-radius: 7px" src="https://upload.wikimedia.org/wikipedia/en/0/00/PUP_Mabini_Obelisk_%28PUP_Mabini_Campus%2C_Santa_Mesa%2C_Manila%3B_2015-0519%29_02.jpg" alt="" />
+        <div id="title">PUP Obelisk (and the Mabini Monument)</div>
+        <div id="text">Symbolizes strength and greatness</div>
+      </div>
+
+      <div class="info" id="puppylon">
+        <img id="img" style="width: 100%; height: 50%; border-radius: 7px" src="https://upload.wikimedia.org/wikipedia/en/0/06/PUP_Mabini_Campus_-_pylon_%28side_view%29_%28PUP%2C_Santa_Mesa%2C_Manila%29%282018-03-06%29.jpg" alt="" />
+        <div id="title">PUP Pylon</div>
+        <div id="text">Symbolizes Truth, Excellence and Wisdom</div>
+      </div>
+
+      
+      
+</body>
+    <script src="mapscript.js"></script>
+</html>

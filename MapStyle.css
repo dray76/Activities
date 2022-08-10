@@ -1,0 +1,57 @@
+*body{
+    background-color: gray;
+    margin: 0;
+    padding: 0;}
+.info{
+    display:none;
+    flex-direction: column;
+    position: fixed;
+    overflow: hidden;
+    align-items: center;
+    border: 1px solid darkslategray;
+    border-radius: 7px;
+    background-color: wheat;
+    padding: 5px;
+    height: 350px;
+    width: 250px;
+    z-index: 1;
+    left: 0;
+    top: 24px;
+}
+.Mapped Area{
+    margin-left: 10%;
+}
+#text{
+    display: flex;
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-size: 18px;
+}
+#title{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+
+.PUPMap{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color:ghostwhite;
+    border: 1px solid black;
+    box-sizing: border-box;}
+.map{
+    display: flex;      
+}
+#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
